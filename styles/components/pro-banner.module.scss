@@ -1,0 +1,24 @@
+.proBanner {
+  width: calc(100% - 3rem);
+  padding: 1.5rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.2);
+
+  display: flex;
+
+  .iconContainer {
+    .icon {
+      font-size: 2.75rem;
+      color: #f96c9e;
+    }
+  }
+  .details {
+    margin-left: 1.5rem;
+
+    .text {
+      margin: 0;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+  }
+}

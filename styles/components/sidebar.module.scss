@@ -1,0 +1,16 @@
+.sidebar {
+  //width: calc(33vw - 2rem);
+  //height: calc(100vh - 2rem);
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+
+  .gap {
+    flex-grow: 1;
+  }
+
+  .logoutContainer {
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,27 @@
+.profile {
+  display: flex;
+
+  .imageContainer {
+    .image {
+      border-radius: 50%;
+      background-position: center center;
+      background-size: cover;
+      width: 64px;
+      height: 64px;
+    }
+  }
+  .details {
+    flex-grow: 1;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .name {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+    .email {
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+}
