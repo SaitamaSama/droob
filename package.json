@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "server.js",
+    "start": "./server.js",
     "test": "jest"
   },
   "repository": {
